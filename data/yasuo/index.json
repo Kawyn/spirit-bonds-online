@@ -1,0 +1,22 @@
+{
+    "name": "yasuo",
+    "statement": "Play your own tune, go where the wind takes you.",
+    "colors": [
+        "#ef6698",
+        "#ffa0c8"
+    ],
+    "position": [
+        9,
+        62
+    ],
+    "right": true,
+    "menu": {
+        "portrait": "yasuo-neutral.png",
+        "background": "bg-kanmei-forest.jpg",
+        "size": 150,
+        "offset": [
+            -39,
+            -15
+        ]
+    }
+}

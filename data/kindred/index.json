@@ -1,0 +1,22 @@
+{
+    "name": "kindred",
+    "statement": "The darkness is less lonely when you're together.",
+    "colors": [
+        "#FF9D98",
+        "#FFB09D"
+    ],
+    "position": [
+        15,
+        40
+    ],
+    "right": true,
+    "menu": {
+        "portrait": "kindred-menu.png",
+        "background": "bg-mountains.jpg",
+        "size": 120,
+        "offset": [
+            -30,
+            -5
+        ]
+    }
+}

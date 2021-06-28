@@ -1,0 +1,21 @@
+{
+    "name": "vayne",
+    "statement": "The hunt never ends.",
+    "colors": [
+        "#8582FF",
+        "#A09EFF"
+    ],
+    "position": [
+        30,
+        65
+    ],
+    "menu": {
+        "portrait": "vayne-neutral.png",
+        "background": "bg-akana-forest.jpg",
+        "size": 80,
+        "offset": [
+            -8,
+            0
+        ]
+    }
+}

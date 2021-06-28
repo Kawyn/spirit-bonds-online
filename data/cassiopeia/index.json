@@ -1,0 +1,21 @@
+{
+    "name": "cassiopeia",
+    "statement": "Careful what you yearn for...",
+    "colors": [
+        "#BBA2FF",
+        "#D3CCFF"
+    ],
+    "position": [
+        60,
+        75
+    ],
+    "menu": {
+        "portrait": "cassiopeia-fan-opened-neutral.png",
+        "background": "bg-cassiopeia-shrine.jpg",
+        "size": 120,
+        "offset": [
+            -35,
+            -5
+        ]
+    }
+}

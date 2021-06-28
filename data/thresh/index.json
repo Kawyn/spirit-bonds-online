@@ -1,0 +1,22 @@
+{
+    "name": "thresh",
+    "statement": "Poor, lost children...",
+    "colors": [
+        "#BB7DFD",
+        "#D8B6FF"
+    ],
+    "position": [
+        47,
+        25
+    ],
+    "right": true,
+    "menu": {
+        "portrait": "thresh-half-human-neutral.png",
+        "background": "bg-thresh-shrine-exterior.jpg",
+        "size": 110,
+        "offset": [
+            -25,
+            -15
+        ]
+    }
+}

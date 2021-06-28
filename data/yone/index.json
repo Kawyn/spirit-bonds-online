@@ -1,0 +1,21 @@
+{
+    "name": "yone",
+    "statement": "Those who fight demons should be mindful of thier own.",
+    "colors": [
+        "#D4A7CF",
+        "#DDD2ED"
+    ],
+    "position": [
+        30,
+        25
+    ],
+    "menu": {
+        "portrait": "yone-neutral.png",
+        "background": "bg-mountains.jpg",
+        "size": 130,
+        "offset": [
+            -25,
+            0
+        ]
+    }
+}

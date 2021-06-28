@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+
+    <title>Spirit Bonds Online</title>
+
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body>
+    <div id="scene">
+        <img src="./images/bg-spirit-world-map.jpg" />
+        <img src="" id="fog" style="visibility: hidden;" />
+
+        <div id="icons"></div>
+
+        <div id="menu" style="visibility: hidden;">
+            <img src="" />
+
+            <div id="episodes">
+                <div class="icon">
+                    <img src="" />
+                </div>
+
+                <h1></h1>
+                <h2>EPISODE LOG</h2>
+
+                <div style="width: 80%; margin: 5% auto;">
+                    <input type="button" value="Introduction" onclick="chat.start('introduction')" />
+                    <input type="button" value="Episode 1" onclick="chat.start('episode1')" />
+                    <input type="button" value="Episode 2" onclick="chat.start('episode2')" />
+                    <input type="button" value="Episode 3" onclick="chat.start('episode3')" />
+                    <input type="button" value="Episode 4" onclick="chat.start('episode4')" />
+                    <input type="button" value="Petral Acceptance" onclick="chat.start('petralacceptance')" />
+                </div>
+
+                <input type="button" value="close" onclick="menu.close()" />
+            </div>
+        </div>
+
+
+        <div id="chat" style="visibility: hidden">
+
+            <img src="" />
+
+            <div style="top: 71%;">
+                <div onclick="chat.continue()">
+                    <h1></h1>
+                    <p></p>
+                    <hr />
+                </div>
+
+                <div class="response" onclick="chat.say(0)">
+                    <p></p>
+                </div>
+                <div class="response" onclick="chat.say(1)">
+                    <p></p>
+                </div>
+                <div class="response" onclick="chat.say(2)">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">Rito pls don't sue me =|</div>
+
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/chat.js"></script>
+    <script src="./scripts/resize.js"></script>
+</body>
+
+</html>

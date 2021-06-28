@@ -1,0 +1,292 @@
+[
+    {
+        "sentence": "[You follow the masked woman, unsure who else may be able to help you in this strange place. You catch up to her in a small forest grove.]",
+        "portrait": "vayne-masked-angry.png",
+        "bg": "bg-akana-forest.jpg",
+        "color": "#F2DABD"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "I told you to stop following me!"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "It's weird, and obnoxious and dangerous, and just... distasteful.",
+        "portrait": "vayne-masked-neutral.png"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "You could've gotten us into some deep-"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "Ugh, let me take this off so i can yell at you better"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Wait... what happened to your face? Looks like something cut your cheek.",
+        "portrait": "vayne-neutral.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Did you get that while following me?"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "We need yo clean it before it gets infected!",
+        "responses": [
+            [
+                "Huh? Why are you-",
+                8
+            ],
+            [
+                "Mybe you could come closer and examine it, Doc-",
+                8
+            ],
+            [
+                "Oh, You care now?",
+                8
+            ]
+        ]
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "I-I mean- You deserve it for chasing after me like child!",
+        "portrait": "vayne-irritated.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Who even cares about your face? I don't care about your face!",
+        "responses": [
+            [
+                "You don't sound so sure...",
+                10
+            ],
+            [
+                "You're the onwe who abandoned me out there!",
+                10
+            ],
+            [
+                "I love you, too",
+                14
+            ]
+        ]
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "I didn't mean- You've got the wrong idea!"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "..."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "......"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": ".........",
+        "next": 17
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "...",
+        "portrait": "vayne-surprised.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "......"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "........."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "I should just kill you and let the animals eat you.",
+        "portrait": "vayne-angry.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Mybe then it'll finally come out..."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "...Oh!",
+        "portrait": "vayne-surprised.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "You've given me a great idea...",
+        "portrait": "vayne-neutral.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "You see, I'm tracking something..."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "A demon."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Normally, I wouldn't ask    a stranger for help..."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Especially not an adult baby like you...",
+        "portrait": "vayne-irritated.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "But it's... important.",
+        "portrait": "vayne-neutral.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "This demon killed my parents. Slaughtered them in the night",
+        "portrait": "vayne-sad.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "I found them.... pieces of them... scattered throughout our home."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "I've tracked the demon this far...",
+        "portrait": "vayne-neutral.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "I mean to kill it. And you're going to help me",
+        "responses": [
+            [
+                "Wait, a human dismembering demon?",
+                30
+            ],
+            [
+                "What do you expect me to do?",
+                30
+            ],
+            [
+                "Oh, now you want my help?",
+                30
+            ]
+        ]
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Just hear me out."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "This demon is drawn to blood. But is's particular... it won't come out for just any amount of the stuff."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "And I haven't been able to find anything larger than a rabbit arround here."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Buy you're here, and you've already got a cut...",
+        "responses": [
+            [
+                "No.",
+                34
+            ]
+        ]
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Yes.",
+        "responses": [
+            [
+                "NO.",
+                35
+            ]
+        ]
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Oh yes.",
+        "portrait": "vayne-irritated.png",
+        "responses": [
+            [
+                "YOU WANT ME TO BE BAIT?",
+                36
+            ]
+        ]
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Listen, you're lost. You said so yourself. That's why you've been following me right?",
+        "portrait": "vayne-neutral.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Help me, and I'll help you get out of there- to wherever you want."
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "It's not like you're in position to refuse.",
+        "portrait": "vayne-irritated.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "What are you going to do if I leave you here? Find your own way back?"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "With a demon on the loose?"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "Yeah, I figured.",
+        "portrait": "vayne-neutral.png"
+    },
+    {
+        "author": "unmasked woman",
+        "sentence": "It's settled then. You help me, I help you."
+    },
+    {
+        "author": "vayne",
+        "sentence": "I'm Vayne. See? We're establishing trust already. You should feel confident that you won't be violent torn apart.",
+        "color": "#8582FF",
+        "responses": [
+            [
+                "Nice to meet you, Vayne.",
+                44
+            ],
+            [
+                "Great. Let's go kill this thing.",
+                45
+            ],
+            [
+                "What was that last part again?",
+                46
+            ]
+        ]
+    },
+    {
+        "author": "vayne",
+        "sentence": "Likewise.",
+        "portrait": "vayne-smile.png",
+        "next": 47
+    },
+    {
+        "author": "vayne",
+        "sentence": "After you.",
+        "portrait": "vayne-smile.png",
+        "next": 47
+    },
+    {
+        "author": "vayne",
+        "sentence": "Don't worry about it.",
+        "portrait": "vayne-smile.png"
+    },
+    {
+        "author": "vayne",
+        "sentence": "Now follow my lead. Touch my ribbon and lose the hand."
+    }
+]

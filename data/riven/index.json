@@ -1,0 +1,21 @@
+{
+    "name": "riven",
+    "statement": "Another day, another broken blade...",
+    "colors": [
+        "#8AB3FF",
+        "#B7D0FF"
+    ],
+    "position": [
+        50,
+        50
+    ],
+    "menu": {
+        "portrait": "riven-neutral.png",
+        "background": "bg-graveyard-of-swords.jpg",
+        "size": 100,
+        "offset": [
+            -21,
+            -2
+        ]
+    }
+}

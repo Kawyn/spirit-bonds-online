@@ -1,0 +1,21 @@
+{
+    "name": "lillia",
+    "statement": "Eep!",
+    "colors": [
+        "#FFA9FF",
+        "#FFCBFF"
+    ],
+    "position": [
+        37,
+        41
+    ],
+    "menu": {
+        "portrait": "lillia-neutral.png",
+        "background": "bg-charred-forest.jpg",
+        "size": 80,
+        "offset": [
+            -12,
+            -10
+        ]
+    }
+}

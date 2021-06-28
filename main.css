@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "FrizQuadrata";
+    src: url(./fonts/FrizQuadrata.ttf);
+}
+
+:root {
+    --scene-width: 60%;
+
+    --primary: #8582ff;
+    --secondary: #a09eff;
+
+    --border: 1px solid #f2dabd;
+}
+
+html {
+    font-family: "FrizQuadrata", sans-serif;
+    user-select: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background-color: #181f31;
+}
+
+#scene {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    border: var(--border);
+
+    padding-top: calc(var(--scene-width) * 0.6825);
+
+    width: var(--scene-width);
+
+    background-color: #f2dabd;
+
+    transform: translate(-50%, -50%);
+
+    overflow: hidden;
+}
+
+#scene > img {
+    position: absolute;
+
+    top: -5%;
+    left: -5%;
+
+    width: 110%;
+    height: 110%;
+
+    z-index: -2;
+}
+
+#fog {
+    z-index: 0 !important;
+}
+
+#icons {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    position: absolute;
+
+    border-radius: 100%;
+
+    padding: 0.9%;
+
+    background: radial-gradient(
+        circle at left bottom,
+        #a3a3a305 20%,
+        #00000050
+    );
+}
+
+/* TODO: clear everything below */
+.icon > img {
+    border: solid;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    border-radius: 100%;
+}
+
+#icons > .icon:hover {
+    z-index: 8;
+    transform: scale(1.1);
+}
+#icons > .icon:hover > img {
+    z-index: 10;
+}
+
+.icon:hover > div {
+    visibility: visible;
+}
+
+.icon > div:hover {
+    visibility: hidden;
+}
+
+.icon > div {
+    visibility: hidden;
+    position: absolute;
+    left: -230%;
+    top: 50%;
+    width: 270%;
+    background-color: #181f31ca;
+    border: var(--border);
+}
+
+.icon > div[right] {
+    left: 60%;
+}
+
+.position {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.icon > div > h1 {
+    margin: 5% 15%;
+    font-size: 1.1em;
+    font-weight: bolder;
+    letter-spacing: 0.075em;
+}
+.icon > div > hr {
+    margin: 0% 10%;
+    border: none;
+    border-bottom: var(--border);
+    opacity: 25%;
+}
+.icon > div > p {
+    margin: 2% 10% 3%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 0.8em;
+    color: #f2dabda0;
+}
+
+#episodes > .icon {
+    position: absolute;
+    background: radial-gradient(
+        circle at left bottom,
+        #a3a3a305 20%,
+        #00000050
+    );
+    border-radius: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 4%;
+}
+#episodes > .icon > img {
+    border: solid;
+    padding: 0px;
+    border-radius: 100%;
+    border-color: var(--primary);
+}
+
+#menu > img {
+    position: absolute;
+    width: 80%;
+    left: -5%;
+
+    z-index: -1;
+}
+
+#menu > #episodes > portrait > img {
+    position: absolute;
+}
+#menu > #episodes {
+    position: absolute;
+    top: 24%;
+    left: 56%;
+    width: 37.5%;
+    height: 65%;
+
+    border: var(--border);
+    background-color: #181f31d0;
+}
+
+#chat,
+#menu {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+#episodes h1,
+#episodes h2 {
+    width: 100%;
+    margin: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+#episodes h1 {
+    text-transform: uppercase;
+    margin-top: 17.5%;
+    color: var(--primary);
+    font-size: 1.5em;
+}
+#episodes h2 {
+    color: #f5f5f5;
+    font-size: 1em;
+}
+
+input[type="button"] {
+    font-family: "FrizQuadrata", sans-serif;
+
+    width: 100%;
+    padding: 3.5%;
+    border: var(--border);
+    background-color: var(--primary);
+    text-align: center;
+    margin: 1.2% auto;
+    font-size: 1em;
+}
+input[type="button"]:hover {
+    background-color: var(--secondary);
+}
+button {
+    position: absolute;
+    left: 50px;
+}
+input[value="close"] {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    padding: 2%;
+    width: 30%;
+    border-radius: 90px;
+    font-size: 0.8em;
+}
+
+#chat > img {
+    position: absolute;
+
+    width: 75%;
+
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, 0%);
+}
+#chat > div {
+    position: absolute;
+    width: 100%;
+
+    height: 100%;
+    overflow: hidden;
+}
+#chat > div > div:nth-of-type(1) {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 2%;
+    left: 50%;
+
+    width: 80%;
+    height: 20%;
+
+    border: var(--border);
+    background-color: #181f31d0;
+}
+
+#footer {
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 2%;
+    color: #f2dabd;
+    width: 100%;
+    text-align: center;
+}
+#chat > div > div:nth-of-type(1) > hr {
+    width: 50%;
+    margin-top: 3%;
+    border: none;
+    border-bottom: var(--border);
+}
+#chat > div > div:nth-of-type(1) > h1 {
+    width: 85%;
+
+    margin: 0.5% auto;
+    margin-top: 0%;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+#chat > div > div:nth-of-type(1) > p {
+    height: 80%;
+    overflow: hidden;
+    line-height: 150%;
+    margin: 0.5% auto;
+    color: #fdf1e2;
+    font-weight: 300;
+    font-size: 1.7em;
+    width: 90%;
+    margin: auto;
+}
+
+.response > h1 {
+    position: absolute;
+    height: 55%;
+
+    top: 50%;
+
+    margin: 0px;
+    padding: 0px 10%;
+
+    transform: translate(0, -50%);
+}
+.response {
+    width: 80%;
+    padding: 2%;
+    height: 3%;
+    border: var(--border);
+
+    left: 50%;
+    margin: 0.5% auto 0%;
+    background-color: #181f31d0;
+}
+.response > p {
+    margin: 0;
+    top: 50%;
+    padding: 0 5%;
+    font-size: 1.6em;
+    transform: translate(0, -50%);
+    position: relative;
+    color: #fdf1e2;
+}
+
+.response:hover {
+    background: linear-gradient(to right, var(--primary), #181f31d0);
+}
+.response:hover > p {
+    text-shadow: #000 0 0 1em;
+}
+input[type="button"] {
+    cursor: pointer;
+}
+*[onclick] {
+    cursor: pointer;
+}

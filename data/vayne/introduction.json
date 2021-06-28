@@ -1,0 +1,109 @@
+[
+    {
+        "sentence": "[A figure is examining the ground a short distance ahead of you, mumbling to herself.        ]",
+        "portrait": "vayne-masked-neutral.png",
+        "bg": "bg-graveyard-of-swords.jpg",
+        "color": "#F2DABD"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "You're not even trying to hide your trail...",
+        "responses": [
+            [
+                "Excuse me...",
+                2
+            ],
+            [
+                "What are you talking about?",
+                2
+            ],
+            [
+                "You lost, too?",
+                2
+            ]
+        ]
+    },
+    {
+        "author": "masked woman",
+        "sentence": "..."
+    },
+    {
+        "sentence": "[The woman turns away.]",
+        "responses": [
+            [
+                "H-hey! Don't just walk away!",
+                4
+            ],
+            [
+                "Wait! Can you tell me where we are?",
+                5
+            ]
+        ]
+    },
+    {
+        "author": "masked woman",
+        "sentence": "Help yourself.",
+        "next": 6
+    },
+    {
+        "author": "masked woman",
+        "sentence": "No."
+    },
+    {
+        "author": "masked woman",
+        "sentence": "It's not safe around here. Leave before you lose all your... leaving parts."
+    },
+    {
+        "author": "masked woman",
+        "sentence": "And don't follow me."
+    },
+    {
+        "author": "masked woman",
+        "sentence": "..."
+    },
+    {
+        "author": "masked woman",
+        "sentence": "......"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "I said don't follow me. Are you some sort of large, adult child?",
+        "responses": [
+            [
+                "Can I touch your ribbon?",
+                11
+            ]
+        ]
+    },
+    {
+        "author": "masked woman",
+        "sentence": "What?",
+        "portrait": "vayne-masked-irritated.png"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "NO.",
+        "portrait": "vayne-masked-angry.png"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "Stop talking. You'll scare it away!",
+        "portrait": "vayne-masked-irritated.png"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "I will kill you where you stand if you make me lose my quarry.",
+        "portrait": "vayne-masked-angry.png"
+    },
+    {
+        "author": "masked woman",
+        "sentence": "Now get away from me!"
+    },
+    {
+        "sentence": "[The woman bolts into the nearby forest. She clearly does not want to be followed.]",
+        "portrait": null
+    },
+    {
+        "sentence": "[You decide you should definetly follow her.]"
+    }
+]

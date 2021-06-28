@@ -1,0 +1,21 @@
+{
+    "name": "ahri",
+    "statement": "Strange... have you met her before?",
+    "colors": [
+        "#89CEED",
+        "#A9E9FF"
+    ],
+    "position": [
+        75,
+        56
+    ],
+    "menu": {
+        "portrait": "ahri-neutral.png",
+        "background": "bg-ahri-shrine.jpg",
+        "size": 120,
+        "offset": [
+            -35,
+            -10
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "teemo",
+    "statement": "Huh? Must've been a trick of the trees.",
+    "colors": [
+        "#00C2FF",
+        "#70E1FF"
+    ],
+    "position": [
+        65,
+        40
+    ],
+    "right": true,
+    "menu": {
+        "portrait": "teemo-neutral.png",
+        "background": "bg-kanmei-forest.jpg",
+        "size": 80,
+        "offset": [
+            -10,
+            -5
+        ]
+    }
+}
