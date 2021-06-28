@@ -26,16 +26,14 @@ const menu = {
         this.portrait.style.width = character.menu.size + '%';
 
 
-        setTimeout(() => {
-            background.src = './images/' + character.menu.background;
-            icons.style.visibility = 'hidden';
-            background.style.filter = 'blur(5px)'
+        background.src = './images/' + character.menu.background;
+        icons.style.visibility = 'hidden';
+        background.style.filter = 'blur(5px)'
 
-            fog.style.visibility = 'visible';
-            this.root.style.visibility = 'visible';
-            resize();
+        fog.style.visibility = 'visible';
+        this.root.style.visibility = 'visible';
+        resize();
 
-        }, 150);
 
     },
 

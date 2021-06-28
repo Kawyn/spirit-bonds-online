@@ -37,7 +37,36 @@ for (const name of ['ahri', 'cassiopeia', 'kindred', 'lillia', 'riven', 'teemo',
             icon.onclick = () => { menu.open(character); };
 
             icons.appendChild(icon);
+
+            // Preload images.
+            images.pre(
+                './images/' + character.name.toLowerCase() + '/' + character.menu.portrait,
+                './images/' + character.name.toLowerCase() + '/fog.png',
+                './images/' + character.menu.background);
+
+
             resize();
         });
     });
+}
+
+const images = {
+
+    srcs: [],
+    objects: [],
+
+
+    pre() {
+
+        for (let src of arguments) {
+
+            if (this.srcs.includes(src) || !src)
+                continue;
+
+            const img = new Image();
+            img.src = src;
+
+            this.objects.push(img);
+        }
+    }
 }

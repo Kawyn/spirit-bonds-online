@@ -28,6 +28,17 @@ const chat = {
 
             res.json().then(episode => {
 
+                const srcs = [];
+
+                for (let i = 0; i < episode.length; i++) {
+
+                    if (episode[i].portrait)
+                        images.pre('./images/' + this.character.name + '/' + episode[i].portrait,);
+
+                    else if (episode[i].bg)
+                        images.pre('./images/' + episode[i].bg);
+                }
+
                 this.index = -1;
 
                 this.episode = episode;
