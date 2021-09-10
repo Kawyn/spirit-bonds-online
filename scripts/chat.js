@@ -39,12 +39,18 @@ const chat = {
                         images.pre('./images/' + episode[i].bg);
                 }
 
-                this.index = -1;
+                this.index = 0;
 
                 this.episode = episode;
 
                 this.root.style.visibility = 'visible';
                 menu.root.style.visibility = 'hidden';
+
+                this.portrait.style.width = episode[0].width + '%';
+                this.portrait.style.height = episode[0].height + '%';
+
+                this.portrait.style.left = episode[0].left + '%';
+                this.portrait.style.top = episode[0].top + '%';
 
                 this.continue();
             });
@@ -63,14 +69,12 @@ const chat = {
             response.style.visibility = 'hidden';
         const part = this.episode[this.index];
 
-
         this.sentence.textContent = part.sentence;
         this.author.textContent = part.author || '';
 
         if (part.portrait) {
             this.portrait.src = './images/' + this.character.name.toLowerCase() + '/' + part.portrait;
             this.portrait.style.display = 'block';
-
         }
         else if (part.portrait === null)
             this.portrait.style.display = 'none';

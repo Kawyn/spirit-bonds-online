@@ -1,5 +1,11 @@
 [
     {
+        "left": 50,
+        "top": 0,
+        "width": 75,
+        "heig": 75
+    },
+    {
         "sentence": "[You follow the masked woman, unsure who else may be able to help you in this strange place. You catch up to her in a small forest grove.]",
         "portrait": "vayne-masked-angry.png",
         "bg": "bg-akana-forest.jpg",
@@ -37,15 +43,15 @@
         "responses": [
             [
                 "Huh? Why are you-",
-                8
+                9
             ],
             [
                 "Mybe you could come closer and examine it, Doc-",
-                8
+                9
             ],
             [
                 "Oh, You care now?",
-                8
+                9
             ]
         ]
     },
@@ -60,15 +66,15 @@
         "responses": [
             [
                 "You don't sound so sure...",
-                10
+                11
             ],
             [
                 "You're the onwe who abandoned me out there!",
-                10
+                11
             ],
             [
                 "I love you, too",
-                14
+                15
             ]
         ]
     },
@@ -163,15 +169,15 @@
         "responses": [
             [
                 "Wait, a human dismembering demon?",
-                30
+                31
             ],
             [
                 "What do you expect me to do?",
-                30
+                31
             ],
             [
                 "Oh, now you want my help?",
-                30
+                31
             ]
         ]
     },
@@ -193,7 +199,7 @@
         "responses": [
             [
                 "No.",
-                34
+                35
             ]
         ]
     },
@@ -203,7 +209,7 @@
         "responses": [
             [
                 "NO.",
-                35
+                36
             ]
         ]
     },
@@ -214,7 +220,7 @@
         "responses": [
             [
                 "YOU WANT ME TO BE BAIT?",
-                36
+                37
             ]
         ]
     },
@@ -256,15 +262,15 @@
         "responses": [
             [
                 "Nice to meet you, Vayne.",
-                44
-            ],
-            [
-                "Great. Let's go kill this thing.",
                 45
             ],
             [
-                "What was that last part again?",
+                "Great. Let's go kill this thing.",
                 46
+            ],
+            [
+                "What was that last part again?",
+                47
             ]
         ]
     },
@@ -272,13 +278,13 @@
         "author": "vayne",
         "sentence": "Likewise.",
         "portrait": "vayne-smile.png",
-        "next": 47
+        "next": 48
     },
     {
         "author": "vayne",
         "sentence": "After you.",
         "portrait": "vayne-smile.png",
-        "next": 47
+        "next": 48
     },
     {
         "author": "vayne",

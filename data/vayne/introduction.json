@@ -1,6 +1,12 @@
 [
     {
-        "sentence": "[A figure is examining the ground a short distance ahead of you, mumbling to herself.        ]",
+        "left": 50,
+        "top": 0,
+        "width": 75,
+        "heig": 75
+    },
+    {
+        "sentence": "[A figure is examining the ground a short distance ahead of you, mumbling to herself.]",
         "portrait": "vayne-masked-neutral.png",
         "bg": "bg-graveyard-of-swords.jpg",
         "color": "#F2DABD"
@@ -11,15 +17,15 @@
         "responses": [
             [
                 "Excuse me...",
-                2
+                3
             ],
             [
                 "What are you talking about?",
-                2
+                3
             ],
             [
                 "You lost, too?",
-                2
+                3
             ]
         ]
     },
@@ -32,18 +38,18 @@
         "responses": [
             [
                 "H-hey! Don't just walk away!",
-                4
+                5
             ],
             [
                 "Wait! Can you tell me where we are?",
-                5
+                6
             ]
         ]
     },
     {
         "author": "masked woman",
         "sentence": "Help yourself.",
-        "next": 6
+        "next": 7
     },
     {
         "author": "masked woman",
@@ -71,7 +77,7 @@
         "responses": [
             [
                 "Can I touch your ribbon?",
-                11
+                12
             ]
         ]
     },

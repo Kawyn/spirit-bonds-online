@@ -1,0 +1,211 @@
+[
+    {
+        "left": 50,
+        "top": 0,
+        "width": 95,
+        "heig": 95
+    },
+    {
+        "sentence": "[You don't remember how you made your way to this forest, but you feel like you belong there.]",
+        "bg": "bg-kanmei-forest.jpg",
+        "portrait": null
+    },
+    {
+        "sentence": "[Mybe you should never leave...]"
+    },
+    {
+        "author": "unknow",
+        "sentence": "GRRRR...",
+        "color": "#F2DABD",
+        "responses": [
+            [
+                "Uh... hello?",
+                4
+            ],
+            [
+                "That can't be good.",
+                4
+            ],
+            [
+                "Oh boy! A new friend!",
+                4
+            ]
+        ]
+    },
+    {
+        "author": "wolf",
+        "sentence": "GRRRY. WOLF KNEW HE SMELLED SOMETHING TASTY.",
+        "portrait": "kindred-wolf-grin.png",
+        "color": "#FF9D98"
+    },
+    {
+        "author": "wolf",
+        "sentence": "ARE YOU GOING TO RUN? PLEASE SAY YES."
+    },
+    {
+        "author": "wolf",
+        "sentence": "WOLF LOVES A GOOD CHASE. WOLF LOVES IT VERY MUCH.",
+        "responses": [
+            [
+                "Um... help?",
+                7
+            ],
+            [
+                "There ghost wolfie. Nice ghost wolfie.",
+                7
+            ],
+            [
+                "I have many regrets about the new friend thing!",
+                7
+            ]
+        ]
+    },
+    {
+        "author": "unknow",
+        "sentence": "Ninety eight, ninety nine, one hundred! Ready or not, here I come!",
+        "color": "#F2DABD"
+    },
+    {
+        "author": "girl",
+        "sentence": "Oh! There you are, Wolf! I win again! Woo hoo!",
+        "portrait": "kindred-mask-wolf-grin.png",
+        "color": "#FF9D98"
+    },
+    {
+        "author": "girl",
+        "sentence": "That's four thousand three hundred and ninety six for me. And for you, zero."
+    },
+    {
+        "author": "wolf",
+        "sentence": "WOLF WAS DISTRACTED! LET WOLF PLAY AGAIN, HE WILL WIN THIS TIME."
+    },
+    {
+        "author": "girl",
+        "sentence": "Maaaybe. Y'know, if you stop growling so much it'll take me longer to find you. Then you can finally beat me!",
+        "portrait": "kindred-mask-wolf-sad.png"
+    },
+    {
+        "author": "wolf",
+        "sentence": "WOLF WILL PRACTICE NOT GROWLING. HE WILL BE THE QUIETEST WOLF.",
+        "portrait": "kindred-mask-wolf-angry.png"
+    },
+    {
+        "author": "girl",
+        "sentence": "Hooray! And look, you found a human! Hello, human!"
+    },
+    {
+        "author": "girl",
+        "sentence": "What are you doing in the spirit realm? You've very pale and shaky for human.",
+        "responses": [
+            [
+                "Er, hello! Is this wolf your... friend?",
+                16
+            ],
+            [
+                "I think that wolf wants to eat me.",
+                20
+            ],
+            [
+                "Please tell your wolf friend to close his mouth.",
+                24
+            ]
+        ]
+    },
+    {
+        "author": "girl",
+        "sentence": "Not exactly my friend. Although we are friendly!"
+    },
+    {
+        "author": "wolf",
+        "sentence": "WOLF IS VERY FRIENDLY, YES HE IS.",
+        "portrait": "kindred-mask-wolf-grin.png"
+    },
+    {
+        "author": "girl",
+        "sentence": "In a way, we're the same. But in another way, we're completely different!"
+    },
+    {
+        "author": "girl",
+        "sentence": "He's realy bad at hide-and-seek.",
+        "next": 28
+    },
+    {
+        "author": "girl",
+        "sentence": "Don't worry. Wolf only bites spirits. Bad spirits."
+    },
+    {
+        "author": "wolf",
+        "sentence": "WOLF BITES PEOPLE TOO. ITS FUN FOR HIM.",
+        "portrait": "kindred-mask-wolf-grin.png"
+    },
+    {
+        "author": "girl",
+        "sentence": "Wolf, not right now. You're scaring the human!"
+    },
+    {
+        "author": "wolf",
+        "sentence": "OOPS. WOLF IS SORRY.",
+        "portrait": "kindred-mask-wolf-sad.png",
+        "next": 28
+    },
+    {
+        "author": "girl",
+        "sentence": "Wolf, you need to be polite around new friends!"
+    },
+    {
+        "author": "wolf",
+        "sentence": "WOLF WILL CLOSE HIS MOUTH WOLF APOLOGIZES, YES HE DOES.",
+        "portrait": "kindred-mask-wolf-sad.png"
+    },
+    {
+        "author": "girl",
+        "sentence": "Sorry about that. Wolf is always hungry, you see. So his mouth is always open!"
+    },
+    {
+        "author": "wolf",
+        "sentence": "LIKE THIS!",
+        "portrait": "kindred-mask-wolf-angry.png",
+        "next": 28
+    },
+    {
+        "author": "girl",
+        "sentence": "You know, I'm getting kind of bored of winning hide-and-seek so much.",
+        "portrait": "kindred-mask-wolf-grin.png"
+    },
+    {
+        "author": "girl",
+        "sentence": "Would you play with me, non-spirit?",
+        "responses": [
+            [
+                "I love playing games with children and thier monster friends in strange forest!",
+                31
+            ],
+            [
+                "Only if Wolf promises not to eat me.",
+                31
+            ],
+            [
+                "I will destroy you at hide-and-seek, little girl.",
+                31
+            ]
+        ]
+    },
+    {
+        "author": "wolf",
+        "sentence": "WOLF DOESN'T THINK YOU CAN WIN. HIDE-AND-SEEK IS VERY HARD."
+    },
+    {
+        "author": "girl",
+        "sentence": "I'm sure you're better hider than Wolf, right? I bet you'd know not to growl when you're hidding! Right? Right?"
+    },
+    {
+        "author": "girl",
+        "sentence": "Okay, I'll start counting! One, two, three..."
+    },
+    {
+        "sentence": "[You walk away as silently as possible to search for creative hidding spot.]"
+    },
+    {
+        "sentence": "[... But what is a little girl doing all the way out here?]"
+    }
+]
