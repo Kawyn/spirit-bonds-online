@@ -47,7 +47,6 @@ const chat = {
                 menu.root.style.visibility = 'hidden';
 
                 this.portrait.style.width = episode[0].width + '%';
-                this.portrait.style.height = episode[0].height + '%';
 
                 this.portrait.style.left = episode[0].left + '%';
                 this.portrait.style.top = episode[0].top + '%';
@@ -117,7 +116,15 @@ const chat = {
     },
 
     close() {
+
         menu.open(this.character);
+
         this.root.style.visibility = 'hidden';
+
+        for (const response of this.responses)
+            response.style.visibility = 'hidden';
+
+        this.bar.children[0].onclick = () => { chat.continue() };
+        this.bar.children[0].style.cursor = 'pointer';
     }
 }

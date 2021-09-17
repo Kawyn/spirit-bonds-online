@@ -291,6 +291,9 @@ input[value="close"] {
     width: 100%;
     text-align: center;
 }
+#footer > a {
+    color: #f2dabd;
+}
 #chat > div > div:nth-of-type(1) > hr {
     width: 50%;
     margin-top: 3%;

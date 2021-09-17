@@ -1,0 +1,138 @@
+[
+    {
+        "left": 50,
+        "top": -5,
+        "width": 85
+    },
+    {
+        "sentence": "[You don't quite remember how you arrived in this forest, but it is a serene place. Motes of light drift lazily throught the trees. Everything is paceful.]",
+        "bg": "bg-akana-forest.jpg"
+    },
+    {
+        "author": "unknow",
+        "color": "#F2DABD",
+        "sentence": "Hello, stranger"
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "I haven't seen you before. Or mybe I have! Hard to say.",
+        "portrait": "ahri-mystery-fox-neutral.png"
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Tell me, why do you wander?"
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Are you lost, prehaps? Go ahead, speak. There's no shame in being honest.",
+        "responses": [
+            [
+                "I'm lost.",
+                6
+            ],
+            [
+                "I'm a little turned around, that's all.",
+                6
+            ],
+            [
+                "I'm extremely attractive and never get lost. And I smell good.",
+                6
+            ]
+        ]
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "..."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "How interesting! You're not spirit... or are you? Your scent is different somehow. And the way you talk..."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "How did you get there, stranger?",
+        "responses": [
+            [
+                "I was looking for someone.",
+                9
+            ],
+            [
+                "Did I die?",
+                13
+            ],
+            [
+                "You're not secretly a beutiful fox person, are you?",
+                17
+            ]
+        ]
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Many spirits walk these woods, searching for old friends and lost loves."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "But the day is long, and the sun is warm, and soon they all forget. That is the nature of place."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Oh, don't worry. None of them mind. They're much happier now."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Otherwise they'd all be demons. Hee hee.",
+        "next": 21
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Who can say? Few spirits come looking for these, but many find them."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Here the days are long, and the sun is warm, and in time all within forget themselves. It is not unpleasant, but it is not your fate."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Or mybe it is! You're quite fascinating, stranger."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "I'm not sure what you are... besides lost, of course.",
+        "next": 21
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "My, how flattering! Sad to say, but I am simply fox. A very mysterious one."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "But a beautiful fox person? I wonder who could you mean. Certainly no one in these woods."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Everyone here is spirit. And the longer they stay here, the more about themselves they forget. It's quite peaceful... so I'm told."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "You're not a spirit though, are you? Or prehaps you are. How exciting."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Hmm. Why don't you follow me, stranger? I'll lead you to safety."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "... Or you can stay here forever. It's up to you! But don't take long to deciding."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "You might just start to forget yourself. Hee hee."
+    },
+    {
+        "portrait": null,
+        "sentence": "[The fox runs off ahead, waiting at the edge of the forest path.]"
+    },
+    {
+        "sentence": "[It beckons you to follow.]"
+    }
+]

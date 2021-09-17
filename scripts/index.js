@@ -70,3 +70,60 @@ const images = {
         }
     }
 }
+
+function resize() {
+
+    css.fontSize = scene.clientHeight / 50 + 'px';
+
+
+    const size = scene.clientWidth / 10;
+
+    menu.icon.width = size;
+
+    const border = menu.icon.parentElement;
+
+    border.style.width = size + 'px';
+    border.style.height = size + 'px';
+
+    if (background.style.filter)
+        background.style.filter = 'blur(' + size / 50 + 'px)';
+
+    fog.style.filter = 'blur(' + size / 100 + 'px)';
+
+    for (const icon of icons.children) {
+
+        icon.style.width = size / 2 + 'px';
+        icon.children[1].width = size / 2;
+
+        icon.style.height = size / 2 + 'px';
+        icon.children[1].height = size / 2;
+    }
+
+    css.setProperty('--border', size / 100 + 'px solid #f2dabd');
+}
+
+window.addEventListener('resize', resize);
+
+
+window.addEventListener('keydown', event => {
+    if (event.key === 'Escape')
+        chat.close();
+})
+
+
+
+
+const footers = [
+    'Rito pls don\'t sue me =|',
+    'Do you know what is even better than this? <a href="https://kawyn.github.io/ponyvile/">Ponyvile</a>!<span style="font-size: 0.8em"> It is not.</span>',
+    'Press ESC while talking with your waifu to quit.',
+    'Here is <a href="https://github.com/Kawyn/spirit-bonds-online">GitHub Page</a> where you can leave star, watch repository or steal code.',
+    '... but Mr Cop, Kindred said she was over a thousand years old. =(',
+    'There are at least two different footers... and this is one of them.',
+    'New chapter every friday. =L',
+    'You can play newer version <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" onclick="document.querySelector(\'#footer\').innerHTML = \'GOT RICK ROLLED, HAHA!\'">here</a>.',
+    'Also try Terraria - stolen from Minecraft.',
+    'Better love story than Twilight.'
+]
+
+document.querySelector('#footer').innerHTML = footers[Math.floor(Math.random() * footers.length)];
