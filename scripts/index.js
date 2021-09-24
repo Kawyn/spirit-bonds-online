@@ -123,7 +123,7 @@ const footers = [
     'New chapter every friday. =L',
     'You can play newer version <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" onclick="document.querySelector(\'#footer\').innerHTML = \'GOT RICK ROLLED, HAHA!\'">here</a>.',
     'Also try Terraria - stolen from Minecraft.',
-    'Better love story than Twilight.'
+    'Better love story than Twilight.',
 ]
 
 document.querySelector('#footer').innerHTML = footers[Math.floor(Math.random() * footers.length)];

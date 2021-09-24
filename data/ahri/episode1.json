@@ -1,0 +1,231 @@
+[
+    {
+        "left": 50,
+        "top": 0,
+        "width": 85
+    },
+    {
+        "sentence": "[You've followed the fox out of the woods, but you're still unsure of where you are.]",
+        "bg": "bg-ahri-shrine.jpg"
+    },
+    {
+        "sentence": "[You see an old shrine ahead, and decide it's good place to stop and rest.]"
+    },
+    {
+        "author": "mysterious fox",
+        "color": "#F2DABD",
+        "sentence": "There you are, stranger.",
+        "portrait": "ahri-mystery-fox-neutral.png"
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "I was hoping, I'd find you again."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Oh, are you wondering about this shrine? I'm told it's very important."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Legends say a beautiful woman appears before souls of the dying, and beckons them to thier etharnal peace."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "They say she takes the form of a fox."
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "You wouldn't know anybody like that, would you?",
+        "responses": [
+            [
+                "Are you...?",
+                9
+            ],
+            [
+                "I don't think so.",
+                10
+            ],
+            [
+                "I know a guy who moonlights as a transforming fox spirit.",
+                11
+            ]
+        ]
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "I am.",
+        "next": 12
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Are you sure?",
+        "next": 12
+    },
+    {
+        "author": "mysterious fox",
+        "sentence": "Really! Does he look like this?",
+        "next": 12
+    },
+    {
+        "author": "mysterious woman",
+        "sentence": "Ah, much better! I don't mind being a fox so much, but I much prefer this form.",
+        "portrait": "ahri-happy.png"
+    },
+    {
+        "author": "mysterious woman",
+        "sentence": "What? Were you expecting something more... Monstrous? Hee hee.",
+        "portrait": "ahri-neutral.png"
+    },
+    {
+        "author": "mysterious woman",
+        "sentence": "No spirit would follow a fox demon int the aferlife. At least not willingly. But me? They'll follow me."
+    },
+    {
+        "author": "ahri",
+        "color": "#89CEED",
+        "sentence": "You can call me Ahri, by the way. I'm this world's spirit of salvation. Don't worry about me helping you out of those woods... It's just what I do!"
+    },
+    {
+        "author": "ahri",
+        "sentence": "I did have a question for you, though... Are you sure don't remember how you got here? Nothing at all?",
+        "responses": [
+            [
+                "I remember a bright light...",
+                17
+            ],
+            [
+                "Nothing. Just darkness.",
+                18
+            ],
+            [
+                "I was being chased by a wisecracking demonic clown.",
+                19
+            ]
+        ]
+    },
+    {
+        "author": "ahri",
+        "sentence": "A bright light? Hmmmm. I've heard of that before, but...",
+        "next": 20
+    },
+    {
+        "author": "ahri",
+        "sentence": "Darkness, you say? It's not uncommon, but that could mean...",
+        "next": 20
+    },
+    {
+        "author": "ahri",
+        "sentence": "Ooo, that sounds scarry! Mybe you're dead after all!",
+        "next": 20
+    },
+    {
+        "author": "ahri",
+        "sentence": "... Well, either way, you're here now. And if I can't tell if you're alive or dead, we might have a real problem on our hands."
+    },
+    {
+        "author": "ahri",
+        "sentence": "You're the problem, for clarity's sake."
+    },
+    {
+        "author": "ahri",
+        "sentence": "..."
+    },
+    {
+        "author": "ahri",
+        "sentence": "Did you know people used to flock to this shrine? In the real world, they tell fables of the fox that guides souls to the afterlife."
+    },
+    {
+        "author": "ahri",
+        "sentence": "But here, time doesn't flow the same way it does for humans. We're defined by the lives and deaths of mortals, but nothing around us ever ages or changes..."
+    },
+    {
+        "author": "ahri",
+        "sentence": "It's always today, yesterday, and tomorrow. Last year and next year. Winter, summer, spring and fall."
+    },
+    {
+        "author": "ahri",
+        "sentence": "People like you live, and one day die. But just like the world itself, the spirits keep existing. The same way we always have."
+    },
+    {
+        "author": "ahri",
+        "sentence": "Just like this old shrine here! Do you think they got my good side?",
+        "responses": [
+            [
+                "Every side is your good side.",
+                28
+            ],
+            [
+                "That's a very handsome fox.",
+                29
+            ],
+            [
+                "Isn't it sort of... mossy?",
+                30
+            ]
+        ]
+    },
+    {
+        "author": "ahri",
+        "sentence": "Calm down, stranger. We barely know each other, and you might be dead! So that's two points in the negative column.",
+        "next": 31
+    },
+    {
+        "author": "ahri",
+        "sentence": "It is, isn't it? My side profile is very striking.",
+        "next": 32
+    },
+    {
+        "author": "ahri",
+        "sentence": "I think the moss ads an air of sophistication. And regular air! That's photosynthesis.",
+        "next": 32
+    },
+    {
+        "author": "ahri",
+        "sentence": "..."
+    },
+    {
+        "author": "ahri",
+        "sentence": "The reson I'm telling you this... is that if you're supposed to be alive right now, you can't stay here for long."
+    },
+    {
+        "author": "ahri",
+        "sentence": "Years will go by in days. Decade in years. By the time you've retruned, your whole world will be changed."
+    },
+    {
+        "author": "ahri",
+        "sentence": "And if my hunch is right, you'll only be the first. That is, if you're not dead. Which you still might be. No conclusive answer there yet."
+    },
+    {
+        "author": "ahri",
+        "sentence": "..."
+    },
+    {
+        "author": "ahri",
+        "sentence": "I'm going to check on something. But I still don't know you very well... so here's what I'll ask."
+    },
+    {
+        "author": "ahri",
+        "sentence": "The soulsof the dead are starting to get... misdirected? I'm not sure your kkind has a word for it. They're not going to their appointed place in the afterlife."
+    },
+    {
+        "author": "ahri",
+        "sentence": "In fact, I'm not seeing some of them at all."
+    },
+    {
+        "author": "ahri",
+        "sentence": "I need you to find some of those lost souls and guide them to my shrine. I'll handle the rest."
+    },
+    {
+        "author": "ahri",
+        "sentence": "If you can do that, I'll help you get home. And if not, well..."
+    },
+    {
+        "author": "ahri",
+        "sentence": "I guess we'll be seeing a lot more of each other. Hee hee."
+    },
+    {
+        "author": "ahri",
+        "sentence": "At least before you turn into a demon...",
+        "portrait": null
+    }
+]
