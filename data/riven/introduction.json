@@ -1,0 +1,137 @@
+[
+    {
+        "left": 50,
+        "top": 0,
+        "width": 70
+    },
+    {
+        "sentence": "[As you approach the decripit battlefield, you see someone moving slowly between discarded swords.]",
+        "bg": "bg-graveyard-of-swords.jpg",
+        "color": "#F2DABD"
+    },
+    {
+        "author": "unknown",
+        "sentence": "My blade... my blade..."
+    },
+    {
+        "author": "unknown",
+        "sentence": "Where... is..."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "...my blade.",
+        "portrait": "riven-overcast.png"
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "You..."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "Have you seen...",
+        "portrait": "riven-angry-sesunoo.png"
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "... my blade!?",
+        "responses": [
+            [
+                "No.",
+                8
+            ],
+            [
+                "Is one of these yours?",
+                10
+            ],
+            [
+                "There's demon behing you!",
+                12
+            ]
+        ]
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "Ah... ah..."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "I must... keep searching...",
+        "next": 14
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "One..? Just one..."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "If only...",
+        "next": 14
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "A... demon..."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "Yes... yes... a demon...",
+        "next": 14
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "My blade... was... broken...",
+        "portrait": "riven-overcast.png"
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "Must... reforge... my blade..."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "Only then... can I..."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "Remember... when... when..."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "... when... did I..?"
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "... die?",
+        "responses": [
+            [
+                "You were human?!",
+                20
+            ],
+            [
+                "You're dead?!",
+                20
+            ]
+        ]
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "..."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "[The spirit begins to wander away. She seems to have forgotten about you.]"
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "... my blade."
+    },
+    {
+        "author": "dark spirit",
+        "sentence": "Where is... my blade..?",
+        "portrait": null
+    },
+    {
+        "sentence": "[Hundreds of sword fragments litter the ground. None look like the spirit's blade.]"
+    },
+    {
+        "sentence": "[You carefully begin to sift through the pieces.]"
+    }
+]
