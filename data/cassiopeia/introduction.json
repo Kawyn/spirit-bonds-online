@@ -1,0 +1,101 @@
+[
+    {
+        "left": 50,
+        "top": 0,
+        "width": 90
+    },
+    {
+        "sentence": "[You find yourself in courtyard of stone statues, all which face an altar.]",
+        "bg": "bg-cassiopeia-shrine.jpg",
+        "portrait": null
+    },
+    {
+        "author": "unknown",
+        "color": "#F2DABD",
+        "sentence": "I've been expecting you."
+    },
+    {
+        "sentence": "[A dark-haired woman coils herself around your body. Her purple eyes are strangely inviting.]"
+    },
+    {
+        "author": "unknown",
+        "sentence": "Ahh, isn't that better?",
+        "portrait": "cassiopeia-fan-opened-smirk.png",
+        "responses": [
+            [
+                "What are you doing?",
+                5
+            ],
+            [
+                "What are you?",
+                8
+            ],
+            [
+                "Am I lost?",
+                11
+            ]
+        ]
+    },
+    {
+        "author": "unknown",
+        "sentence": "Exactly what you want me to.",
+        "portrait": "cassiopeia-fan-opened-coy.png"
+    },
+    {
+        "author": "unknown",
+        "sentence": "You would not have come here otherwise."
+    },
+    {
+        "author": "unknown",
+        "sentence": "This place draws those whose... desire... is strong enought.",
+        "portrait": "cassiopeia-fan-closed-coy.png",
+        "next": 13
+    },
+    {
+        "author": "unknown",
+        "sentence": "Everything you desire.",
+        "portrait": "cassiopeia-fan-opened-coy.png"
+    },
+    {
+        "author": "unknown",
+        "sentence": "You longed to come here. I felt that need. This place... felt that need.",
+        "portrait": "cassiopeia-fan-opened-smirk.png"
+    },
+    {
+        "author": "unknown",
+        "sentence": "I am the only who understand you. That part of you which longs. That cries out.",
+        "portrait": "cassiopeia-fan-closed-coy.png",
+        "next": 13
+    },
+    {
+        "author": "unknown",
+        "sentence": "No, darling. You're found.",
+        "portrait": "cassiopeia-fan-opened-coy.png"
+    },
+    {
+        "author": "unknown",
+        "sentence": "You're excatly where you need to be. And exactly where you want to be."
+    },
+    {
+        "author": "unknown",
+        "sentence": "...And where I want you.",
+        "portrait": "cassiopeia-fan-closed-coy.png"
+    },
+    {
+        "author": "spirit of temptation",
+        "sentence": "I am the Spirit of Temptation I sense your desires, better than you understand them yourself.",
+        "portrait": "cassiopeia-fan-closed-smirk.png"
+    },
+    {
+        "author": "spirit of temptation",
+        "sentence": "Just give in. Let me take control.",
+        "portrait": "cassiopeia-fan-closed-neutral.png"
+    },
+    {
+        "author": "spirit of temptation",
+        "sentence": "I know what you want."
+    },
+    {
+        "sentence": "[Her snakelike body tightens painfully around you. There isn't even time to struggle before vision fades to black.]"
+    }
+]
